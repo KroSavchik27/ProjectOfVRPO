@@ -239,77 +239,77 @@ footer{
     transition: 1s;
 }
 
-.rotate180_1{
+.elem1_1{
     transform: rotateY(180deg);
     content: url('1.png');
     transition: 1s;
 }
-.rotate180_2{
+.elem1_2{
     transform: rotateY(180deg);
     content: url('2.png');
     transition: 1s;
 }
-.rotate180_3{
+.elem1_3{
     transform: rotateY(180deg);
     content: url('3.png');
     transition: 1s;
 }
-.rotate180_4{
+.elem1_4{
     transform: rotateY(180deg);
     content: url('4.png');
     transition: 1s;
 }
-.rotate180_5{
+.elem1_5{
     transform: rotateY(180deg);
     content: url('5.png');
     transition: 1s;
 }
-.rotate180_6{
+.elem1_6{
     transform: rotateY(180deg);
     content: url('6.png');
     transition: 1s;
 }
-.rotate180_7{
+.elem1_7{
     transform: rotateY(180deg);
     content: url('7.png');
     transition: 1s;
 }
-.rotate180_8{
+.elem1_8{
     transform: rotateY(180deg);
     content: url('8.png');
     transition: 1s;
 }
-.rotate180_9{
+.elem1_9{
     transform: rotateY(180deg);
     content: url('9.png');
     transition: 1s;
 }
-.rotate180_10{
+.elem1_10{
     transform: rotateY(180deg);
     content: url('10.png');
     transition: 1s;
 }
-.rotate180_11{
+.elem1_11{
     transform: rotateY(180deg);
     content: url('11.png');
     transition: 1s;
 }
-.rotate180_12{
+.elem1_12{
     transform: rotateY(180deg);
     content: url('12.png');
     transition: 1s;
 }
-.rotate180_13{
+.elem1_13{
     transform: rotateY(180deg);
     content: url('13.png');
     transition: 1s;
 }
-.rotate180_14{
+.elem1_14{
     transform: rotateY(180deg);
     content: url('14.png');
     transition: 1s;
 }
-.rotate180_15{
+.elem1_15{
     transform: rotateY(180deg);
     content: url('15.png');
     transition: 1s;

@@ -1,122 +1,167 @@
+let random_start = 1;
+let random_end = 15;
+
+allСycles = 15;
+
+let arrayOfOddClassNames = [];
+let arrayOfEvenClassNames = [];
+
+for(i=random_start;i<=random_end;i++){
+   arrayOfOddClassNames.push(i);
+}
+for(i=random_start;i<=random_end;i++){
+    arrayOfEvenClassNames.push(i);
+}
+let value1 = arrayOfOddClassNames.splice(Math.random()*arrayOfOddClassNames.length,1)[0];
+let value2 = arrayOfEvenClassNames.splice(Math.random()*arrayOfEvenClassNames.length,1)[0];
+let value3 = arrayOfOddClassNames.splice(Math.random()*arrayOfOddClassNames.length,1)[0];
+let value4 = arrayOfEvenClassNames.splice(Math.random()*arrayOfEvenClassNames.length,1)[0];
+let value5 = arrayOfOddClassNames.splice(Math.random()*arrayOfOddClassNames.length,1)[0];
+let value6 = arrayOfEvenClassNames.splice(Math.random()*arrayOfEvenClassNames.length,1)[0];
+let value7 = arrayOfOddClassNames.splice(Math.random()*arrayOfOddClassNames.length,1)[0];
+let value8 = arrayOfEvenClassNames.splice(Math.random()*arrayOfEvenClassNames.length,1)[0];
+let value9 = arrayOfOddClassNames.splice(Math.random()*arrayOfOddClassNames.length,1)[0];
+let value10 = arrayOfEvenClassNames.splice(Math.random()*arrayOfEvenClassNames.length,1)[0];
+let value11 = arrayOfOddClassNames.splice(Math.random()*arrayOfOddClassNames.length,1)[0];
+let value12 = arrayOfEvenClassNames.splice(Math.random()*arrayOfEvenClassNames.length,1)[0];
+let value13 = arrayOfOddClassNames.splice(Math.random()*arrayOfOddClassNames.length,1)[0];
+let value14 = arrayOfEvenClassNames.splice(Math.random()*arrayOfEvenClassNames.length,1)[0];
+let value15 = arrayOfOddClassNames.splice(Math.random()*arrayOfOddClassNames.length,1)[0];
+let value16 = arrayOfEvenClassNames.splice(Math.random()*arrayOfEvenClassNames.length,1)[0];
+let value17 = arrayOfOddClassNames.splice(Math.random()*arrayOfOddClassNames.length,1)[0];
+let value18 = arrayOfEvenClassNames.splice(Math.random()*arrayOfEvenClassNames.length,1)[0];
+let value19 = arrayOfOddClassNames.splice(Math.random()*arrayOfOddClassNames.length,1)[0];
+let value20 = arrayOfEvenClassNames.splice(Math.random()*arrayOfEvenClassNames.length,1)[0];
+let value21 = arrayOfOddClassNames.splice(Math.random()*arrayOfOddClassNames.length,1)[0];
+let value22 = arrayOfEvenClassNames.splice(Math.random()*arrayOfEvenClassNames.length,1)[0];
+let value23 = arrayOfOddClassNames.splice(Math.random()*arrayOfOddClassNames.length,1)[0];
+let value24 = arrayOfEvenClassNames.splice(Math.random()*arrayOfEvenClassNames.length,1)[0];
+let value25 = arrayOfOddClassNames.splice(Math.random()*arrayOfOddClassNames.length,1)[0];
+let value26 = arrayOfEvenClassNames.splice(Math.random()*arrayOfEvenClassNames.length,1)[0];
+let value27 = arrayOfOddClassNames.splice(Math.random()*arrayOfOddClassNames.length,1)[0];
+let value28 = arrayOfEvenClassNames.splice(Math.random()*arrayOfEvenClassNames.length,1)[0];
+let value29 = arrayOfOddClassNames.splice(Math.random()*arrayOfOddClassNames.length,1)[0];
+let value30 = arrayOfEvenClassNames.splice(Math.random()*arrayOfEvenClassNames.length,1)[0];
+
 let element1 = document.querySelector('.element1');
 let rotate1 = () =>{
-    element1.classList.toggle('rotate180_1');
+    element1.classList.toggle(`elem1_${value1}`);
 }
 let element2 = document.querySelector('.element2');
 let rotate2 = () =>{
-    element2.classList.toggle('rotate180_2');
+    element2.classList.toggle(`elem1_${value2}`);
 }
 let element3 = document.querySelector('.element3');
 let rotate3 = () =>{
-    element3.classList.toggle('rotate180_3');
+    element3.classList.toggle(`elem1_${value3}`);
 }
 let element4 = document.querySelector('.element4');
 let rotate4 = () =>{
-    element4.classList.toggle('rotate180_4');
+    element4.classList.toggle(`elem1_${value4}`);
 }
 let element5 = document.querySelector('.element5');
 let rotate5 = () =>{
-    element5.classList.toggle('rotate180_5');
+    element5.classList.toggle(`elem1_${value5}`);
 }
 let element6 = document.querySelector('.element6');
 let rotate6 = () =>{
-    element6.classList.toggle('rotate180_6');
+    element6.classList.toggle(`elem1_${value6}`);
 }
 let element7 = document.querySelector('.element7');
 let rotate7 = () =>{
-    element7.classList.toggle('rotate180_7');
+    element7.classList.toggle(`elem1_${value7}`);
 }
 let element8 = document.querySelector('.element8');
 let rotate8 = () =>{
-    element8.classList.toggle('rotate180_8');
+    element8.classList.toggle(`elem1_${value8}`);
 }
 let element9 = document.querySelector('.element9');
 let rotate9 = () =>{
-    element9.classList.toggle('rotate180_9');
+    element9.classList.toggle(`elem1_${value9}`);
 }
 let element10 = document.querySelector('.element10');
 let rotate10 = () =>{
-    element10.classList.toggle('rotate180_10');
+    element10.classList.toggle(`elem1_${value10}`);
 }
 let element11 = document.querySelector('.element11');
 let rotate11 = () =>{
-    element11.classList.toggle('rotate180_11');
+    element11.classList.toggle(`elem1_${value11}`);
 }
 let element12 = document.querySelector('.element12');
 let rotate12 = () =>{
-    element12.classList.toggle('rotate180_12');
+    element12.classList.toggle(`elem1_${value12}`);
 }
 let element13 = document.querySelector('.element13');
 let rotate13 = () =>{
-    element13.classList.toggle('rotate180_13');
+    element13.classList.toggle(`elem1_${value13}`);
 }
 let element14 = document.querySelector('.element14');
 let rotate14 = () =>{
-    element14.classList.toggle('rotate180_14');
+    element14.classList.toggle(`elem1_${value14}`);
 }
 let element15 = document.querySelector('.element15');
 let rotate15 = () =>{
-    element15.classList.toggle('rotate180_15');
+    element15.classList.toggle(`elem1_${value15}`);
 }
 let element16 = document.querySelector('.element16');
 let rotate16 = () =>{
-    element16.classList.toggle('rotate180_1');
+    element16.classList.toggle(`elem1_${value16}`);
 }
 let element17 = document.querySelector('.element17');
 let rotate17 = () =>{
-    element17.classList.toggle('rotate180_2');
+    element17.classList.toggle(`elem1_${value17}`);
 }
 let element18 = document.querySelector('.element18');
 let rotate18 = () =>{
-    element18.classList.toggle('rotate180_3');
+    element18.classList.toggle(`elem1_${value18}`);
 }
 let element19 = document.querySelector('.element19');
 let rotate19 = () =>{
-    element19.classList.toggle('rotate180_4');
+    element19.classList.toggle(`elem1_${value19}`);
 }
 let element20 = document.querySelector('.element20');
 let rotate20 = () =>{
-    element20.classList.toggle('rotate180_5');
+    element20.classList.toggle(`elem1_${value20}`);
 }
 let element21 = document.querySelector('.element21');
 let rotate21 = () =>{
-    element21.classList.toggle('rotate180_6');
+    element21.classList.toggle(`elem1_${value21}`);
 }
 let element22 = document.querySelector('.element22');
 let rotate22 = () =>{
-    element22.classList.toggle('rotate180_7');
+    element22.classList.toggle(`elem1_${value22}`);
 }
 let element23 = document.querySelector('.element23');
 let rotate23 = () =>{
-    element23.classList.toggle('rotate180_8');
+    element23.classList.toggle(`elem1_${value23}`);
 }
 let element24 = document.querySelector('.element24');
 let rotate24 = () =>{
-    element24.classList.toggle('rotate180_9');
+    element24.classList.toggle(`elem1_${value24}`);
 }
 let element25 = document.querySelector('.element25');
 let rotate25 = () =>{
-    element25.classList.toggle('rotate180_10');
+    element25.classList.toggle(`elem1_${value25}`);
 }
 let element26 = document.querySelector('.element26');
 let rotate26 = () =>{
-    element26.classList.toggle('rotate180_11');
+    element26.classList.toggle(`elem1_${value26}`);
 }
 let element27 = document.querySelector('.element27');
 let rotate27 = () =>{
-    element27.classList.toggle('rotate180_12');
+    element27.classList.toggle(`elem1_${value27}`);
 }
 let element28 = document.querySelector('.element28');
 let rotate28 = () =>{
-    element28.classList.toggle('rotate180_13');
+    element28.classList.toggle(`elem1_${value28}`);
 }
 let element29 = document.querySelector('.element29');
 let rotate29 = () =>{
-    element29.classList.toggle('rotate180_14');
+    element29.classList.toggle(`elem1_${value29}`);
 }
 let element30 = document.querySelector('.element30');
 let rotate30 = () =>{
-    element30.classList.toggle('rotate180_15');
+    element30.classList.toggle(`elem1_${value30}`);
 }
 let firstMode = document.querySelector('.firstMode');
 let secondMode = document.querySelector('.secondMode');
@@ -128,7 +173,7 @@ let addNav2AndRemoveNav = () =>{
     nav.style.display = 'none';
     nav2.style.display = 'flex';
     element1.style.display = 'block';
-    element2.style.display = 'block';//вот это надо повторить 30 раз
+    element2.style.display = 'block';
     element3.style.display = 'block';
     element4.style.display = 'block';
     element5.style.display = 'block';
@@ -162,7 +207,7 @@ let quit = document.querySelector('.quit');
 let removeNav2AndAddNav = () =>{
     nav.style.display = 'flex';
     nav2.style.display = 'none';
-    element1.style.display = 'none';//вот это надо повторить 30 раз
+    element1.style.display = 'none';
     element2.style.display = 'none';
     element3.style.display = 'none';
     element4.style.display = 'none';
@@ -192,57 +237,4 @@ let removeNav2AndAddNav = () =>{
     element28.style.display = 'none';
     element29.style.display = 'none';
     element30.style.display = 'none';
-}
-let random_start = 1; // От какого генерировать
-let random_end = 15; // До какого генерировать
-
-allСycles = 15;
-
-let arrayOfOddClassNames = [];
-let arrayOfEvenClassNames = [];
-let arrayOfOddElements = [];
-arrayOfOddElements.push(element1);
-arrayOfOddElements.push(element3);
-arrayOfOddElements.push(element5);
-arrayOfOddElements.push(element7);
-arrayOfOddElements.push(element9);
-arrayOfOddElements.push(element11);
-arrayOfOddElements.push(element13);
-arrayOfOddElements.push(element15);
-arrayOfOddElements.push(element17);
-arrayOfOddElements.push(element19);
-arrayOfOddElements.push(element21);
-arrayOfOddElements.push(element23);
-arrayOfOddElements.push(element25);
-arrayOfOddElements.push(element27);
-arrayOfOddElements.push(element29);
-let arrayOfEvenElements = [];
-arrayOfEvenElements.push(element2);
-arrayOfEvenElements.push(element4);
-arrayOfEvenElements.push(element6);
-arrayOfEvenElements.push(element8);
-arrayOfEvenElements.push(element10);
-arrayOfEvenElements.push(element12);
-arrayOfEvenElements.push(element14);
-arrayOfEvenElements.push(element16);
-arrayOfEvenElements.push(element18);
-arrayOfEvenElements.push(element20);
-arrayOfEvenElements.push(element22);
-arrayOfEvenElements.push(element24);
-arrayOfEvenElements.push(element26);
-arrayOfEvenElements.push(element28);
-arrayOfEvenElements.push(element30);
-for(i=random_start;i<=random_end;i++){
-   arrayOfOddClassNames.push(i);
-}
-
-for(countCycles=1;countCycles<=allСycles;countCycles++){
-    arrayOfOddElements.classList('1_' + `arrayOfOddClassNames.splice(Math.random()*arrayOfOddClassNames.length,1)[0]`);
-}
-for(i=random_start;i<=random_end;i++){
-    arrayOfEvenId.push(i);
-}
- 
-for(countCycles=1;countCycles<=allСycles;countCycles++){
-    arrayOfEvenElements.classList.add('1_' + `arrayOfEvenClassNames.splice(Math.random()*arrayOfEvenClassNames.length,1)[0]`);
 }
