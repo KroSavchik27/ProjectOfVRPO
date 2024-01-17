@@ -1,3 +1,8 @@
+img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
 html{
     height: 100%;
 }
@@ -117,7 +122,195 @@ footer{
     width: 15%;
     transition: 1s;
 }
-.rotate180{
+.element2{
+    width: 15%;
+    transition: 1s;
+}
+.element3{
+    width: 15%;
+    transition: 1s;
+}
+.element4{
+    width: 15%;
+    transition: 1s;
+}
+.element5{
+    width: 15%;
+    transition: 1s;
+}
+.element6{
+    width: 15%;
+    transition: 1s;
+}
+.element7{
+    width: 15%;
+    transition: 1s;
+}
+.element8{
+    width: 15%;
+    transition: 1s;
+}
+.element9{
+    width: 15%;
+    transition: 1s;
+}
+.element10{
+    width: 15%;
+    transition: 1s;
+}
+.element11{
+    width: 15%;
+    transition: 1s;
+}
+.element12{
+    width: 15%;
+    transition: 1s;
+}
+.element13{
+    width: 15%;
+    transition: 1s;
+}
+.element14{
+    width: 15%;
+    transition: 1s;
+}
+.element15{
+    width: 15%;
+    transition: 1s;
+}
+.element16{
+    width: 15%;
+    transition: 1s;
+}
+.element17{
+    width: 15%;
+    transition: 1s;
+}
+.element18{
+    width: 15%;
+    transition: 1s;
+}
+.element19{
+    width: 15%;
+    transition: 1s;
+}
+.element20{
+    width: 15%;
+    transition: 1s;
+}
+.element21{
+    width: 15%;
+    transition: 1s;
+}
+.element22{
+    width: 15%;
+    transition: 1s;
+}
+.element23{
+    width: 15%;
+    transition: 1s;
+}
+.element24{
+    width: 15%;
+    transition: 1s;
+}
+.element25{
+    width: 15%;
+    transition: 1s;
+}
+.element26{
+    width: 15%;
+    transition: 1s;
+}
+.element27{
+    width: 15%;
+    transition: 1s;
+}
+.element28{
+    width: 15%;
+    transition: 1s;
+}
+.element29{
+    width: 15%;
+    transition: 1s;
+}
+.element30{
+    width: 15%;
+    transition: 1s;
+}
+
+.rotate180_1{
     transform: rotateY(180deg);
+    content: url('1.png');
+    transition: 1s;
+}
+.rotate180_2{
+    transform: rotateY(180deg);
+    content: url('2.png');
+    transition: 1s;
+}
+.rotate180_3{
+    transform: rotateY(180deg);
+    content: url('3.png');
+    transition: 1s;
+}
+.rotate180_4{
+    transform: rotateY(180deg);
+    content: url('4.png');
+    transition: 1s;
+}
+.rotate180_5{
+    transform: rotateY(180deg);
+    content: url('5.png');
+    transition: 1s;
+}
+.rotate180_6{
+    transform: rotateY(180deg);
+    content: url('6.png');
+    transition: 1s;
+}
+.rotate180_7{
+    transform: rotateY(180deg);
+    content: url('7.png');
+    transition: 1s;
+}
+.rotate180_8{
+    transform: rotateY(180deg);
+    content: url('8.png');
+    transition: 1s;
+}
+.rotate180_9{
+    transform: rotateY(180deg);
+    content: url('9.png');
+    transition: 1s;
+}
+.rotate180_10{
+    transform: rotateY(180deg);
+    content: url('10.png');
+    transition: 1s;
+}
+.rotate180_11{
+    transform: rotateY(180deg);
+    content: url('11.png');
+    transition: 1s;
+}
+.rotate180_12{
+    transform: rotateY(180deg);
+    content: url('12.png');
+    transition: 1s;
+}
+.rotate180_13{
+    transform: rotateY(180deg);
+    content: url('13.png');
+    transition: 1s;
+}
+.rotate180_14{
+    transform: rotateY(180deg);
+    content: url('14.png');
+    transition: 1s;
+}
+.rotate180_15{
+    transform: rotateY(180deg);
+    content: url('15.png');
     transition: 1s;
 }
