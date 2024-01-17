@@ -1,18 +1,122 @@
-let element1 = document.querySelector('.element1');//
-let rotate1 = () =>{//
-    element1.classList.toggle('rotate180');//
-} //это надо повторить 30 раз
+let element1 = document.querySelector('.element1');
+let rotate1 = () =>{
+    element1.classList.toggle('rotate180_1');
+}
 let element2 = document.querySelector('.element2');
 let rotate2 = () =>{
-    element2.classList.toggle('rotate180');
+    element2.classList.toggle('rotate180_2');
 }
 let element3 = document.querySelector('.element3');
 let rotate3 = () =>{
-    element3.classList.toggle('rotate180');
+    element3.classList.toggle('rotate180_3');
 }
 let element4 = document.querySelector('.element4');
 let rotate4 = () =>{
-    element4.classList.toggle('rotate180');
+    element4.classList.toggle('rotate180_4');
+}
+let element5 = document.querySelector('.element5');
+let rotate5 = () =>{
+    element5.classList.toggle('rotate180_5');
+}
+let element6 = document.querySelector('.element6');
+let rotate6 = () =>{
+    element6.classList.toggle('rotate180_6');
+}
+let element7 = document.querySelector('.element7');
+let rotate7 = () =>{
+    element7.classList.toggle('rotate180_7');
+}
+let element8 = document.querySelector('.element8');
+let rotate8 = () =>{
+    element8.classList.toggle('rotate180_8');
+}
+let element9 = document.querySelector('.element9');
+let rotate9 = () =>{
+    element9.classList.toggle('rotate180_9');
+}
+let element10 = document.querySelector('.element10');
+let rotate10 = () =>{
+    element10.classList.toggle('rotate180_10');
+}
+let element11 = document.querySelector('.element11');
+let rotate11 = () =>{
+    element11.classList.toggle('rotate180_11');
+}
+let element12 = document.querySelector('.element12');
+let rotate12 = () =>{
+    element12.classList.toggle('rotate180_12');
+}
+let element13 = document.querySelector('.element13');
+let rotate13 = () =>{
+    element13.classList.toggle('rotate180_13');
+}
+let element14 = document.querySelector('.element14');
+let rotate14 = () =>{
+    element14.classList.toggle('rotate180_14');
+}
+let element15 = document.querySelector('.element15');
+let rotate15 = () =>{
+    element15.classList.toggle('rotate180_15');
+}
+let element16 = document.querySelector('.element16');
+let rotate16 = () =>{
+    element16.classList.toggle('rotate180_1');
+}
+let element17 = document.querySelector('.element17');
+let rotate17 = () =>{
+    element17.classList.toggle('rotate180_2');
+}
+let element18 = document.querySelector('.element18');
+let rotate18 = () =>{
+    element18.classList.toggle('rotate180_3');
+}
+let element19 = document.querySelector('.element19');
+let rotate19 = () =>{
+    element19.classList.toggle('rotate180_4');
+}
+let element20 = document.querySelector('.element20');
+let rotate20 = () =>{
+    element20.classList.toggle('rotate180_5');
+}
+let element21 = document.querySelector('.element21');
+let rotate21 = () =>{
+    element21.classList.toggle('rotate180_6');
+}
+let element22 = document.querySelector('.element22');
+let rotate22 = () =>{
+    element22.classList.toggle('rotate180_7');
+}
+let element23 = document.querySelector('.element23');
+let rotate23 = () =>{
+    element23.classList.toggle('rotate180_8');
+}
+let element24 = document.querySelector('.element24');
+let rotate24 = () =>{
+    element24.classList.toggle('rotate180_9');
+}
+let element25 = document.querySelector('.element25');
+let rotate25 = () =>{
+    element25.classList.toggle('rotate180_10');
+}
+let element26 = document.querySelector('.element26');
+let rotate26 = () =>{
+    element26.classList.toggle('rotate180_11');
+}
+let element27 = document.querySelector('.element27');
+let rotate27 = () =>{
+    element27.classList.toggle('rotate180_12');
+}
+let element28 = document.querySelector('.element28');
+let rotate28 = () =>{
+    element28.classList.toggle('rotate180_13');
+}
+let element29 = document.querySelector('.element29');
+let rotate29 = () =>{
+    element29.classList.toggle('rotate180_14');
+}
+let element30 = document.querySelector('.element30');
+let rotate30 = () =>{
+    element30.classList.toggle('rotate180_15');
 }
 let firstMode = document.querySelector('.firstMode');
 let secondMode = document.querySelector('.secondMode');
@@ -25,6 +129,34 @@ let addNav2AndRemoveNav = () =>{
     nav2.style.display = 'flex';
     element1.style.display = 'block';
     element2.style.display = 'block';//вот это надо повторить 30 раз
+    element3.style.display = 'block';
+    element4.style.display = 'block';
+    element5.style.display = 'block';
+    element6.style.display = 'block';
+    element7.style.display = 'block';
+    element8.style.display = 'block';
+    element9.style.display = 'block';
+    element10.style.display = 'block';
+    element11.style.display = 'block';
+    element12.style.display = 'block';
+    element13.style.display = 'block';
+    element14.style.display = 'block';
+    element15.style.display = 'block';
+    element16.style.display = 'block';
+    element17.style.display = 'block';
+    element18.style.display = 'block';
+    element19.style.display = 'block';
+    element20.style.display = 'block';
+    element21.style.display = 'block';
+    element22.style.display = 'block';
+    element23.style.display = 'block';
+    element24.style.display = 'block';
+    element25.style.display = 'block';
+    element26.style.display = 'block';
+    element27.style.display = 'block';
+    element28.style.display = 'block';
+    element29.style.display = 'block';
+    element30.style.display = 'block';
 }
 let quit = document.querySelector('.quit');
 let removeNav2AndAddNav = () =>{
@@ -32,6 +164,34 @@ let removeNav2AndAddNav = () =>{
     nav2.style.display = 'none';
     element1.style.display = 'none';//вот это надо повторить 30 раз
     element2.style.display = 'none';
+    element3.style.display = 'none';
+    element4.style.display = 'none';
+    element5.style.display = 'none';
+    element6.style.display = 'none';
+    element7.style.display = 'none';
+    element8.style.display = 'none';
+    element9.style.display = 'none';
+    element10.style.display = 'none';
+    element11.style.display = 'none';
+    element12.style.display = 'none';
+    element13.style.display = 'none';
+    element14.style.display = 'none';
+    element15.style.display = 'none';
+    element16.style.display = 'none';
+    element17.style.display = 'none';
+    element18.style.display = 'none';
+    element19.style.display = 'none';
+    element20.style.display = 'none';
+    element21.style.display = 'none';
+    element22.style.display = 'none';
+    element23.style.display = 'none';
+    element24.style.display = 'none';
+    element25.style.display = 'none';
+    element26.style.display = 'none';
+    element27.style.display = 'none';
+    element28.style.display = 'none';
+    element29.style.display = 'none';
+    element30.style.display = 'none';
 }
 let random_start = 1; // От какого генерировать
 let random_end = 15; // До какого генерировать
