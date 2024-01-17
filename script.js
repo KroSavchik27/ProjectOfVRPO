@@ -38,8 +38,8 @@ let random_end = 15; // До какого генерировать
 
 allСycles = 15;
 
-let arrayOfOddId = [];
-let arrayOfEvenId = [];
+let arrayOfOddClassNames = [];
+let arrayOfEvenClassNames = [];
 let arrayOfOddElements = [];
 arrayOfOddElements.push(element1);
 arrayOfOddElements.push(element3);
@@ -73,16 +73,16 @@ arrayOfEvenElements.push(element26);
 arrayOfEvenElements.push(element28);
 arrayOfEvenElements.push(element30);
 for(i=random_start;i<=random_end;i++){
-   arrayOfOddId.push(i);
+   arrayOfOddClassNames.push(i);
 }
 
 for(countCycles=1;countCycles<=allСycles;countCycles++){
-    arrayOfOddElements.setAttribute('id', arrayOfOddId.splice(Math.random()*arrayOfOddId.length,1)[0]);
+    arrayOfOddElements.classList('1_' + `arrayOfOddClassNames.splice(Math.random()*arrayOfOddClassNames.length,1)[0]`);
 }
 for(i=random_start;i<=random_end;i++){
     arrayOfEvenId.push(i);
 }
  
 for(countCycles=1;countCycles<=allСycles;countCycles++){
-    arrayOfEvenElements.setAttribute('id', arrayOfEvenId.splice(Math.random()*arrayOfEvenId.length,1)[0]);
+    arrayOfEvenElements.classList.add('1_' + `arrayOfEvenClassNames.splice(Math.random()*arrayOfEvenClassNames.length,1)[0]`);
 }
