@@ -237,12 +237,12 @@ for(i=random_start;i<=random_end;i++){
 }
 
 for(countCycles=1;countCycles<=allСycles;countCycles++){
-    arrayOfOddElements.setAttribute('id', arrayOfOddId.splice(Math.random()arrayOfOddId.length,1)[0]);
+    arrayOfOddElements.setAttribute('id', arrayOfOddId.splice(Math.random()*arrayOfOddId.length,1)[0]);
 }
 for(i=random_start;i<=random_end;i++){
     arrayOfEvenId.push(i);
 }
  
 for(countCycles=1;countCycles<=allСycles;countCycles++){
-    arrayOfEvenElements.setAttribute('id', arrayOfEvenId.splice(Math.random()arrayOfEvenId.length,1)[0]);
+    arrayOfEvenElements.setAttribute('id', arrayOfEvenId.splice(Math.random()*arrayOfEvenId.length,1)[0]);
 }
