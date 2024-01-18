@@ -95,7 +95,6 @@ nav{
 .main1{
     display: flex;
     justify-content: space-evenly;
-    padding-top: 15px;
     flex-wrap: wrap;
 }
 .main2{
@@ -313,4 +312,10 @@ footer{
     transform: rotateY(180deg);
     content: url('15.png');
     transition: 1s;
+}
+.flag1{
+    opacity: 100%;
+}
+.flag2{
+    opacity: 100%;
 }
