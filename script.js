@@ -321,30 +321,13 @@ arrayOfEvenFunctions.push(rotate26);
 arrayOfEvenFunctions.push(rotate28);
 arrayOfEvenFunctions.push(rotate30);
 let firstMode = document.querySelector('.firstMode');
-let secondMode = document.querySelector('.secondMode');
-let thirdMode = document.querySelector('.thirdMode');
-let forthMode = document.querySelector('.forthMode');
 let nav = document.querySelector('nav');
-let nav2 = document.querySelector('.nav2');
 let addNav2AndRemoveNav = () =>{
-    nav.style.display = 'none';
-    nav2.style.display = 'flex';
     arrayOfOddElements.forEach((el) =>{
         el.style.display = 'block';
     })
     arrayOfEvenElements.forEach((el) =>{
         el.style.display = 'block';
-    })
-}
-let quit = document.querySelector('.quit');
-let removeNav2AndAddNav = () =>{
-    nav.style.display = 'flex';
-    nav2.style.display = 'none';
-    arrayOfOddElements.forEach((el) =>{
-        el.style.display = 'none';
-    })
-    arrayOfEvenElements.forEach((el) =>{
-        el.style.display = 'none';
     })
 }
 setInterval(() =>{
@@ -363,7 +346,7 @@ setInterval(() =>{
                     setTimeout(() =>{
                         arrayOfOddFunctions[index1]();
                         arrayOfOddFunctions[index2]();
-                    }, '2000');
+                    }, '1500');
                 }
             }
         })
@@ -379,7 +362,7 @@ setInterval(() =>{
                     setTimeout(() =>{
                         arrayOfEvenFunctions[index2]();
                         arrayOfEvenFunctions[index1]();
-                    }, '2000');
+                    }, '1500');
                 }
             }
         })
@@ -388,14 +371,14 @@ setInterval(() =>{
                 setTimeout(() =>{
                     arrayOfOddElements[index1].style.display = 'none';
                     arrayOfEvenElements[index2].style.display = 'none';
-                }, '2000')
+                }, '1500')
             }
             else{
                 setTimeout(() =>{
                     arrayOfOddFunctions[index1]();
                     arrayOfEvenFunctions[index2]();
-                }, '2000');
+                }, '1500');
             }
         }
     }
-}, '2500');
+}, '1600');
